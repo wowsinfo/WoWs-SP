@@ -1,0 +1,32 @@
+<scripts_config.xml checkPing="true" debugInfo="true">
+    <space>spaces/00_CO_ocean</space>
+    <offlineModel>PASC001_Erie_1936</offlineModel>
+    <player entityType="Avatar" startDirection="1.0 0.0 0.0" startPosition="0.0 0.0 -313.0"/>
+    <cursorScaleSpeed x="40" y="40"/>
+    <server online="true">
+        <host alias="WOWS ASIA" csis="http://csis.worldoftanks.asia/csis/wowssg" ids="IDS_AS" realm="asia" wgnrurl="https://asia.wargaming.net">
+            <master addr="login2.worldofwarships.jp:20020"/>
+            <master addr="login1.worldofwarships.jp:20020"/>
+        </host>
+        <host alias="WOWS EU" csis="http://csis.worldoftanks.eu/csis/wowseu" ids="IDS_EU" realm="eu" wgnrurl="https://eu.wargaming.net">
+            <master addr="login1.worldofwarships.eu:20020"/>
+            <master addr="login2.worldofwarships.eu:20020"/>
+        </host>
+        <host alias="WOWS NA" csis="http://csis.worldoftanks.eu/csis/wowsus" ids="IDS_NA" realm="na" wgnrurl="https://na.wargaming.net">
+            <master addr="login1.worldofwarships.com:20020"/>
+            <master addr="login2.worldofwarships.com:20020"/>
+        </host>
+        <host alias="WOWS RU" csis="http://csis.worldoftanks.ru/csis/wowsru" ids="IDS_NA" realm="ru" wgnrurl="https://ru.wargaming.net">
+            <master addr="login1.worldofwarships.ru:20020"/>
+            <master addr="login2.worldofwarships.ru:20020"/>
+        </host>
+    </server>
+    <chat visibleLines="6"/>
+    <writeCombatLog>true</writeCombatLog>
+    <Dock3D>true</Dock3D>
+    <CurseVoice>true</CurseVoice>
+    <scriptProfiler address="0.0.0.0" enabled="true" netSend="false" port="6666"/>
+    <GameParams packed="true"/>
+    <disableTrainingRoom>false</disableTrainingRoom>
+    <targetPlatform>PC</targetPlatform>
+</scripts_config.xml>
